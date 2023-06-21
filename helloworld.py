@@ -333,3 +333,10 @@
 #     print("positive")
 # else:
 #     print("Negative")
+
+#WAP to find the area of circle of radius of 7.5,8.97,20.39,100,129,139,600,1000,5.6,12.7,11.2
+
+rad_Circle=[7.5,8.97,20.39,100,129,139,600,1000,5.6,12.7,11.2]
+for r in rad_Circle:
+    areaOfCircle= 3.14*r*r
+    print(f"area of circle is {areaOfCircle}")
