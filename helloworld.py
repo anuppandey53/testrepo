@@ -328,6 +328,8 @@
 
 # wap take a string from user as a input and check whether the string is  rishab karki or not
 
-inString = input("enter the string")
-if(inString=="Rishab"):
-    print("positive")
+# inString = input("enter the string")
+# if(inString=="Rishab"):
+#     print("positive")
+# else:
+#     print("Negative")
