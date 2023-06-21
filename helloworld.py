@@ -340,3 +340,15 @@ rad_Circle=[7.5,8.97,20.39,100,129,139,600,1000,5.6,12.7,11.2]
 for r in rad_Circle:
     areaOfCircle= 3.14*r*r
     print(f"area of circle is {areaOfCircle}")
+
+#added by sakesh
+
+number=float(input("Enter a number: "))
+if number < 0:
+    print("Number is negative")
+elif number == 0:
+    print("Number is zero")
+elif number % 2 == 0:
+    print("Number is even")
+else:
+    print("Number is odd")
